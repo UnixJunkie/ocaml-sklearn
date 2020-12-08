@@ -77,7 +77,7 @@ scikit-learn, numpy and scipy inside:
 ```sh
 python3 -mvenv .venv
 source .venv/bin/activate
-pip install scikit-learn==%%SKLEARN_FULL_VERSION%% numpy==%%NUMPY_FULL_VERSION%% scipy==%%SCIPY_FULL_VERSION%% pytest
+pip3 install scikit-learn==%%SKLEARN_FULL_VERSION%% numpy==%%NUMPY_FULL_VERSION%% scipy==%%SCIPY_FULL_VERSION%% pytest
 ```
 
 Then run your compiled OCaml program inside the virtualenv:
