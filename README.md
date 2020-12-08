@@ -77,7 +77,7 @@ scikit-learn, numpy and scipy inside:
 ```sh
 python3 -mvenv .venv
 source .venv/bin/activate
-pip install scikit-learn==%%SKLEARN_FULL_VERSION%% numpy==%%NUMPY_FULL_VERSION%% scipy==%%SCIPY_FULL_VERSION%% pytest
+pip3 install scikit-learn==%%SKLEARN_FULL_VERSION%% numpy==%%NUMPY_FULL_VERSION%% scipy==%%SCIPY_FULL_VERSION%% pytest
 ```
 
 Then run your compiled OCaml program inside the virtualenv:
@@ -141,7 +141,7 @@ scikit-learn's documentation.
 ~~~sh
 python3 -mvenv .venv
 source .venv/bin/activate
-pip install -r requirements-dev.txt
+pip3 install -r requirements-dev.txt
 opam switch create . 4.11.1 --deps-only
 dune runtest
 ~~~
@@ -155,7 +155,7 @@ The requirements for developing (not using) the bindings are in file
 # sudo apt install python3-venv
 python3 -mvenv .venv
 source .venv/bin/activate
-pip install -r requirements-dev.txt
+pip3 install -r requirements-dev.txt
 ~~~
 
 ### Running tests
